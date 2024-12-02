@@ -97,7 +97,7 @@ class BrazilMapPlotter:
 # Dashboard implementation starts here
 # Dataset
 datetime_cols = ["order_approved_at", "order_delivered_carrier_date", "order_delivered_customer_date", "order_estimated_delivery_date", "order_purchase_timestamp", "shipping_limit_date"]
-all_df = pd.read_csv(r"C:/Users/ASUS/Downloads/Submission_DicodingxBangkit_Data_Analytics/dashboard/df.csv")
+all_df = pd.read_csv(r"D:\Sampoerna University\Boothcamp\Bangkit_Academy_Machine_Learning\Submission_DicodingxBangkit_Data_Analytics\dashboard\df.csv")
 
 print(all_df.head())
 
@@ -105,7 +105,7 @@ all_df.sort_values(by="order_approved_at", inplace=True)
 all_df.reset_index(inplace=True)
 
 # Geolocation Dataset
-geolocation = pd.read_csv(r"C:/Users/ASUS/Downloads/Submission_DicodingxBangkit_Data_Analytics/dashboard/geolocation_dataset.csv")
+geolocation = pd.read_csv(r"D:\Sampoerna University\Boothcamp\Bangkit_Academy_Machine_Learning\Submission_DicodingxBangkit_Data_Analytics\dashboard\geolocation_dataset.csv")
 
 print(geolocation.head())
 
