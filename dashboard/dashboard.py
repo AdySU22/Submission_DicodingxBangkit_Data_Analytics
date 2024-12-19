@@ -97,7 +97,7 @@ class BrazilMapPlotter:
 # Dashboard implementation starts here
 # Dataset
 datetime_cols = ["order_approved_at", "order_delivered_carrier_date", "order_delivered_customer_date", "order_estimated_delivery_date", "order_purchase_timestamp", "shipping_limit_date"]
-all_df = pd.read_csv(r"D:\Sampoerna University\Boothcamp\Bangkit_Academy_Machine_Learning\Submission_DicodingxBangkit_Data_Analytics\dashboard\df.csv")
+all_df = pd.read_csv(r"df.csv")
 
 print(all_df.head())
 
@@ -105,7 +105,7 @@ all_df.sort_values(by="order_approved_at", inplace=True)
 all_df.reset_index(inplace=True)
 
 # Geolocation Dataset
-geolocation = pd.read_csv(r"D:\Sampoerna University\Boothcamp\Bangkit_Academy_Machine_Learning\Submission_DicodingxBangkit_Data_Analytics\dashboard\geolocation_dataset.csv")
+geolocation = pd.read_csv(r"geolocation_dataset.csv")
 
 print(geolocation.head())
 
@@ -150,7 +150,7 @@ with st.sidebar:
         st.write(' ')
     with col2:
         st.markdown("<h2 style='text-align: center;'>Ady Syamsuri</h2>", unsafe_allow_html=True)  # Centered and enlarged name
-        st.image("C:/Users/ASUS/Downloads/Submission_DicodingxBangkit_Data_Analytics/dashboard/logo-garuda.png", width=100)
+        st.image("logo-garuda.png", width=100)
     with col3:
         st.write(' ')
 
