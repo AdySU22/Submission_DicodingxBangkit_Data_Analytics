@@ -20,5 +20,6 @@ The dataset is sourced from Kaggle: [Brazilian E-Commerce Dataset]([link to data
 ## Installation
 
 To clone the repository to your local machine, run the following command:
+git clone https://github.com/AdySU22/Submission_DicodingxBangkit_Data_Analytics.git
 
 
