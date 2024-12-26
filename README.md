@@ -12,10 +12,11 @@ The dataset is sourced from Kaggle: [Brazilian E-Commerce Dataset]([link to data
 
 ## Project Directory Structure
 
-- `/Data`: This directory contains the dataset in `.csv` format.
-- `/Dashboard`: This folder includes the main `dashboard.py`, `df.csv`, `geolocation_dataset.csv`, `logo_garuda.png` file, which contains the core code for building the web-based visualization.
-- `notebook.ipynb`: This Jupyter Notebook is used for data analysis.
-- `requirement.txt`: This is file format with the necessary libraries for the project
+- `/data`: This directory contains the dataset in `.csv` format.
+- `/dashboard`: This folder includes the main `Dashboard.py`, `df.csv`, `geolocation_dataset.csv` file, which contains the core code for building the web-based visualization.
+- `Proyek_Analisis_Data.ipynb`: This Jupyter Notebook is used for data analysis.
+- `requirement.txt`: This is file format for all the libraries used in the project
+- `url.txt`: This is file format for the url used for the project
 
 ## Installation
 
